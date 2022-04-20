@@ -1,0 +1,33 @@
+:root {
+    --light-grey: #dcdde0;
+    --grey: #a3a3a3;
+    --midlle-grey: #c2c2c2;
+    --dark-grey: #636363;
+    --white: #ffffff;
+    --black: black;
+    --green: rgb(18, 194, 18);
+}
+
+.infos {
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+
+.infos-item {
+    padding-bottom: 2em;
+}
+
+.infos-title {
+    padding-top: 0.4em;
+    padding-bottom: 0.4em;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: flex-start;    
+
+    font-family: 'Lusitana', serif;
+    font-size: 2em;
+    font-weight: 500;
+    color: var(--black);
+}

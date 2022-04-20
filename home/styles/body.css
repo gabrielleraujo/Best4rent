@@ -1,0 +1,25 @@
+.cropped-square {
+    width: 100%;
+    aspect-ratio: 1/1; /* onde a mágica acontece. */
+}
+
+.cropped-rectangular {
+    width: 100%;
+    aspect-ratio: 2/1; /* onde a mágica acontece. */
+}
+
+.round-img {
+    overflow: hidden;
+    object-fit: cover;
+    border-radius: 50%;
+    object-position: right;
+}
+.round-img:hover {
+    opacity: 70%;
+    transition: 1s ease-out;
+}
+
+.img {
+    overflow: hidden;
+    object-fit: cover;
+}

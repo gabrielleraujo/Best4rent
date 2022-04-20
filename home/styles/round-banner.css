@@ -1,0 +1,60 @@
+:root {
+    --light-grey: #dcdde0;
+    --grey: #a3a3a3;
+    --midlle-grey: #c2c2c2;
+    --dark-grey: #636363;
+    --white: #ffffff;
+    --black: black;
+}
+
+.round-banner 
+{
+    padding: 2em;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    background-color: var(--off-white);
+}
+
+.round-banner-item {
+    padding-top: 1em;
+    padding-bottom: 2em;
+    flex-direction: column;
+}
+
+.round-banner-message { 
+    width: 100%;
+    padding-top: 2em;
+
+    font-size: 0.9em;
+    color: var(--dark-grey);
+
+    display: -webkit-box;
+    -webkit-line-clamp: 5; /** número de linhas que você quer exibir */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;    
+}
+
+.round-banner-button {
+    margin-top: 1em;
+    padding-left: 1.4em;
+    padding-right: 1.4em;
+
+    border-radius: 3%;
+
+    background-color: var(--midlle-grey);
+    color: var(--white);
+}
+.round-banner-button:hover {
+    background-color: var(--black);
+    color: var(--white);
+}
+
+.round-banner-end-light-line {
+    height: 0.8em;
+    background-color: var(--white);
+}

@@ -1,0 +1,74 @@
+:root {
+    --white: #ffffff;
+    --off-white: #f8f8fa;
+    --light-grey: #dcdde0;
+    --midlle-grey: #c2c2c2;
+    --grey: #a3a3a3;
+    --dark-grey: #636363;
+    --black: black;
+}
+
+.footer-logo {
+    padding-top: 0em;
+    padding-bottom: 1em;
+}
+
+.footer-logo > .row > .logo-col-1 {
+    font-size: 2em;
+}
+.footer-logo > .row > .logo-col-2 > img {
+    max-width: 40px;
+    max-height: 40px;
+    width: auto;
+    height: auto;
+}
+.footer-logo > .row >.logo-col-3 {
+    font-size: 2em;
+}
+
+.footer > .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.footer {
+    padding: 3em;
+    text-align: center;
+}
+
+.footer-end-light-line {
+    height: 0.8em;
+    background-color: var(--off-white);
+}
+
+.footer-end-dark-line {
+    height: 0.8em;
+    background-color: var(--black);
+}
+
+.footer-message {
+    font-size: 1em;
+    color: var(--grey);
+}
+
+.footer-contacts > svg {
+    padding: 6px;
+    width: 34px; 
+    height: 34px;
+    fill: var(--light-grey);
+
+    border-radius: 50%;
+    border: 1px;
+    border-style: solid;
+    border-color: var(--light-grey);
+
+    background-color: var(--white);
+}
+
+.footer-contacts > svg:hover {
+    fill: var(--black);
+    border-color: var(--black);
+    transition: 1s ease-out;
+}

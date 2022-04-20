@@ -1,0 +1,31 @@
+:root {
+    --light-grey: #dcdde0;
+    --grey: #a3a3a3;
+    --midlle-grey: #c2c2c2;
+    --dark-grey: #636363;
+    --white: #ffffff;
+    --black: black;
+}
+
+.infos-round-banner > .container > .row
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.infos-round-banner-message {
+    padding-top: 2em;
+    min-height: 8em;
+
+    font-family: 'Lusitana', serif;
+    font-size: 0.9em;
+    font-weight: 700;
+
+    color: var(--dark-grey);
+
+    display: -webkit-box;
+    -webkit-line-clamp: 3; /** número de linhas que você quer exibir */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

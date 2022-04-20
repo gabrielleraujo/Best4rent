@@ -1,0 +1,38 @@
+:root {
+    --light-grey: #dcdde0;
+    --grey: #a3a3a3;
+    --dark-grey: #636363;
+    --white: #ffffff;
+    --black: black;
+}
+
+.logo {
+    padding: 5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-col-1  {
+    padding: 0px;
+    font-size: 3em;
+    font-weight: 500;
+    color: var(--dark-grey);
+    font-family: 'Lusitana', serif;
+}
+.logo-col-2 {
+    padding: 2px;
+}
+.logo-col-3 {
+    padding: 0px;
+    font-size: 3em;
+    font-weight: 500;
+    color: var(--grey);
+    font-family: 'Lusitana', serif;
+}
+
+.logo-sub-title {
+    color: var(--grey);
+    font-family: 'Lusitana', serif;
+}

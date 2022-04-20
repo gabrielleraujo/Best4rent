@@ -1,0 +1,46 @@
+:root {
+    --light-grey: #dcdde0;
+    --grey: #a3a3a3;
+    --midlle-grey: #c2c2c2;
+    --dark-grey: #636363;
+    --white: #ffffff;
+    --black: black;
+    --green: rgb(18, 194, 18);
+}
+
+/* Useful Info */
+
+.infos-list {
+    padding: 0;
+}
+
+.infos-list-item-svg > svg{
+    width: 16px; 
+    height: 16px;
+    fill: var(--white);
+
+    border-radius: 20%;
+    border: 2px;
+    border-style: solid;
+    border-color: var(--dark-grey);
+
+    background-color: var(--dark-grey);
+}
+
+.infos-list > li {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: baseline;
+}
+
+.infos-list > li > p {
+    margin-left: 1em;
+    color: var(--dark-grey);
+}
+.infos-list > li > p:hover {
+    color: var(--green);
+    cursor: pointer;
+    transition: 0.4s ease-out;
+}

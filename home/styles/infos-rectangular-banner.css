@@ -1,0 +1,40 @@
+:root {
+    --light-grey: #dcdde0;
+    --grey: #a3a3a3;
+    --midlle-grey: #c2c2c2;
+    --dark-grey: #636363;
+    --white: #ffffff;
+    --black: black;
+    --green: rgb(18, 194, 18);
+}
+
+/* Testimolials */
+
+.infos-message-bold {
+    font-weight: 600;
+    color: var(--black);
+}
+.infos-message {
+    padding: 1em;
+
+    padding-left: 0;
+    padding-right: 0;
+
+    font-size: 1em;
+    color: var(--midlle-grey);
+}
+
+.infos-button {
+    padding-left: 1.4em;
+    padding-right: 1.4em;
+
+    border-radius: 3%;
+
+    background-color: var(--off-white);
+    color: var(--dark-grey);
+}
+.infos-button:hover {
+    background-color: var(--black);
+    color: var(--white);
+    transition: 0.4s ease-out;
+}
