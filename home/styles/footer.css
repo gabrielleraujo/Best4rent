@@ -17,8 +17,8 @@
     font-size: 2em;
 }
 .footer-logo > .row > .logo-col-2 > img {
-    max-width: 40px;
-    max-height: 40px;
+    max-width: 2.6em;
+    max-height: 2.6em;
     width: auto;
     height: auto;
 }
@@ -54,13 +54,13 @@
 }
 
 .footer-contacts > svg {
-    padding: 6px;
-    width: 34px; 
-    height: 34px;
+    padding: 0.35em;
+    width: 2.2em; 
+    height: 2.2em;
     fill: var(--light-grey);
 
     border-radius: 50%;
-    border: 1px;
+    border: 0.1em;
     border-style: solid;
     border-color: var(--light-grey);
 

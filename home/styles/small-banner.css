@@ -10,8 +10,8 @@
     display: flex;
     justify-content: center ;
 
-    padding: 14px;
-    padding-top: 20px;
+    padding: 1em;
+    padding-top: 1.2em;
 
     background-color: var(--black);
     color: var(--white);

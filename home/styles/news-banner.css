@@ -20,14 +20,14 @@
 }
 
 .news-banner-item {
-    max-width: 500px; 
+    max-width: 50em; 
 }
 
 .title {
     padding-top: 4em;
     padding-bottom: 0.4em;
 
-    max-width: 380px;
+    max-width: 24em;
     
     display: flex;
     flex-direction: row;
@@ -35,7 +35,7 @@
     align-items: flex-start;    
 
     font-family: 'Lusitana', serif;
-    font-weight: 500;
+    font-weight: 50em;
     color: var(--black);
 }
 
@@ -68,12 +68,12 @@
 }
 
 .news-banner-link > svg {
-    width: 16px; 
-    height: 16px;
+    width: 1em; 
+    height: 1em;
     fill: var(--white);
 
     border-radius: 50%;
-    border: 2px;
+    border: 0.2em;
     border-style: solid;
     border-color: var(--midlle-grey);
 

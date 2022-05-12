@@ -7,13 +7,13 @@
 }
 
 .line-sup {
-    border-top: 1px;
+    border-top: 0.1em;
     border-top-style: solid; 
     border-top-color: var(--light-grey);
 }
 
 .nav-item .nav-link {
-    padding: 26px;
+    padding: 1.5em;
     color: var(--grey);
 }
 .nav-item:hover .nav-link:hover {
@@ -23,12 +23,12 @@
 }
 
 .item {
-    border-left: 1px; 
+    border-left: 0.1em; 
     border-left-style: solid;
     border-left-color: var(--light-grey);
 }
 .last-item {
-    border-left: 1px;
+    border-left: 0.1em;
     border-left-style: solid;
     border-left-color: var(--light-grey);
 }

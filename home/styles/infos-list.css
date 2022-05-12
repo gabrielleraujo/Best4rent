@@ -15,12 +15,12 @@
 }
 
 .infos-list-item-svg > svg{
-    width: 16px; 
-    height: 16px;
+    width: 1em; 
+    height: 1em;
     fill: var(--white);
 
     border-radius: 20%;
-    border: 2px;
+    border: 0.1em;
     border-style: solid;
     border-color: var(--dark-grey);
 
